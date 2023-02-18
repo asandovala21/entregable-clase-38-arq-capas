@@ -1,4 +1,4 @@
-import productosApi from '../../api/productos.js'
+import productosApi from '../../api-capa-servicio/productos.js'
 
 import { logError } from '../../loggers/index.js'
 

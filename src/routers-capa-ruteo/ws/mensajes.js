@@ -1,4 +1,4 @@
-import mensajesApi from '../../api/mensajes.js'
+import mensajesApi from '../../api-capa-servicio/mensajes.js'
 import { logError } from '../../loggers/index.js';
 import { normalizarMensajes } from '../../normalizacion/index.js'
 

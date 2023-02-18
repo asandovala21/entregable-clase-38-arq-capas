@@ -1,6 +1,6 @@
 import config from '../config.js'
 
-import ContenedorArchivo from '../contenedores/ContenedorArchivo.js'
+import ContenedorArchivo from '../contenedores-capa-persistencia/ContenedorArchivo.js'
 // import ContenedorMongoDb from '../contenedores/ContenedorMongoDb.js'
 
 const productosApi = new ContenedorArchivo(`${config.fileSystem.path}/productos.json`)

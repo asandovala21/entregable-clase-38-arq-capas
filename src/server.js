@@ -8,13 +8,13 @@ import config from './config.js'
 import { Server as HttpServer } from 'http'
 import { Server as Socket } from 'socket.io'
 
-import authWebRouter from './routers/web/auth.js'
-import homeWebRouter from './routers/web/home.js'
-import productosApiRouter from './routers/api/productos.js'
-import randomsApiRouter from './routers/api/randoms.js'
+import authWebRouter from './routers-capa-ruteo/web/auth.js'
+import homeWebRouter from './routers-capa-ruteo/web/home.js'
+import productosApiRouter from './routers-capa-ruteo/api/productos.js'
+import randomsApiRouter from './routers-capa-ruteo/api/randoms.js'
 
-import addProductosHandlers from './routers/ws/productos.js'
-import addMensajesHandlers from './routers/ws/mensajes.js'
+import addProductosHandlers from './routers-capa-ruteo/ws/productos.js'
+import addMensajesHandlers from './routers-capa-ruteo/ws/mensajes.js'
 
 import { logInfo, logError, logWarning } from './loggers/index.js'
 

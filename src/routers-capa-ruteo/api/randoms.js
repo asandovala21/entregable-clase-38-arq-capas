@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import { calcular } from '../../api/randoms.js'
+import { calcular } from '../../api-capa-servicio/randoms.js'
 import { logError } from '../../loggers/index.js'
 
 const randomsApiRouter = new Router()
